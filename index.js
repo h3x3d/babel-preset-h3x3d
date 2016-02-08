@@ -3,6 +3,7 @@ module.exports = {
     require('babel-preset-node5')
   ],
   plugins: [
-    require('transform-runtime')
+    require('babel-plugin-transform-runtime'),
+    require('babel-plugin-transform-class-properties')
   ]
 };
