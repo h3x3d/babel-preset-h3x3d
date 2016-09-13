@@ -1,6 +1,6 @@
 module.exports = {
   presets: [
-    require('babel-preset-node5')
+    require('babel-preset-node6')
   ],
   plugins: [
     require('babel-plugin-transform-runtime'),
