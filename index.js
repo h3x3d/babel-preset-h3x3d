@@ -1,6 +1,7 @@
 module.exports = {
   presets: [
-    require('babel-preset-node6')
+    require('babel-preset-node6'),
+    require('babel-preset-react')
   ],
   plugins: [
     require('babel-plugin-syntax-async-functions'),
