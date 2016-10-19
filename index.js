@@ -1,9 +1,9 @@
 module.exports = {
   presets: [
-    require('babel-preset-node5')
+    ['latest-node6', { es2015: { loose: true } }]
   ],
   plugins: [
-    require('babel-plugin-transform-runtime'),
-    require('babel-plugin-transform-class-properties')
+    'transform-runtime',
+    'transform-class-properties'
   ]
 };
