@@ -7,7 +7,6 @@ module.exports = {
     'transform-es2015-modules-commonjs',
     'transform-exponentiation-operator',
     'transform-object-rest-spread',
-    'transform-class-properties',
-    'transform-runtime'
+    'transform-class-properties'
   ]
 };
