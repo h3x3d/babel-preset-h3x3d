@@ -1,11 +1,13 @@
 module.exports = {
   presets: [
-    ['latest-node6', { es2015: { loose: true } }],
     'react'
   ],
   plugins: [
+    'transform-async-to-generator',
+    'transform-es2015-modules-commonjs',
+    'transform-exponentiation-operator',
+    'transform-object-rest-spread',
     'transform-class-properties',
-    ['transform-builtin-extend', { globals: ['Error'] }],
-    'transform-runtime',
+    'transform-runtime'
   ]
 };
